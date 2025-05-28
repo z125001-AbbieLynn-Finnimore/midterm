@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Personal Webpage</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+
+  <header class="header">
+    
+    
+    <div class="header-images">
+      <img src="images/midtermimage1.jpeg" alt="Intro 1" />
+      <img src="images/midtermimage2.jpeg" alt="Intro 2" />
+    
+      
+    </div>
+    <div class="scroll-down">&#x25BC;</div>
+</header>
+</section>
+
+  <main>
+    <section id="bio">
+      <h1>Abbie Finnimore</h1>
+      <h2>About Me</h2>
+      <p>
+        My name is Abbie Finnimore! I grew up in Philadelphia, Pennsylvania, and later moved to New Jersey. 
+        I am in my second year of computer engineering at Rowan University in New Jersey. I work part time at 
+        a coffee shop while going to University. 
+        
+      <br>
+        Right now, I have not much experience in coding yet, but I am currently learning to 
+        improve my skills. I have experiance in Python and a little bit of javascript, and I am
+        looking forward to learning more languages in the future.
+      </br>
+      
+      <section>
+      </head>
+      <body>
+        <div class="flower">
+          <div class="petal petal1"></div>
+          <div class="petal petal2"></div>
+          <div class="petal petal3"></div>
+          <div class="petal petal4"></div>
+          <div class="petal petal5"></div>
+          <div class="center"></div>
+        </div>
+      </body>
+      </section>
+      <script src="script.js"></script>
+    </body>
+    </body>
+        
+      <br>
+        In my free time, I enjoy listening to music, taking pictures, and exploring new places. I also enjoy reading books, and like to 
+        document my reads through reviewing every book I read. 
+      </br>
+
+      <p>
+      <br>
+        My favorite genres of music include alternative, rock, pop punk, and kpop. I love discovering new artists
+        and attending live concerts, since my music taste is always evolving.
+      </br>
+      </p>
+      <p>
+      <br>
+        Below is my link to my spotify playlist which includes my top songs from the past year.
+      </br>
+      </p>
+
+      <section class="spotify-section">
+        <h2>Current Music Rotation</h2>
+        <div class="spotify-embed">
+          <iframe style="border-radius:12px" 
+            src="https://open.spotify.com/embed/playlist/5dxZtmCnVeeKiPRup2Kjbb?utm_source=generator" 
+            width="100%" height="380" 
+            frameBorder="0" 
+            allowfullscreen="" 
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+            loading="lazy">
+          </iframe>
+        </div>
+      </section>
+
+      <section>
+      </div>
+      <div class="flower-row">
+        <div class="mini-flower mini-flower1">
+          <div class="petal petal1"></div>
+          <div class="petal petal2"></div>
+          <div class="petal petal3"></div>
+          <div class="petal petal4"></div>
+          <div class="center"></div>
+        </div>
+        <div class="mini-flower mini-flower2">
+          <div class="petal petal1"></div>
+          <div class="petal petal2"></div>
+          <div class="petal petal3"></div>
+          <div class="petal petal4"></div>
+          <div class="center"></div>
+        </div>
+        <div class="mini-flower mini-flower3">
+          <div class="petal petal1"></div>
+          <div class="petal petal2"></div>
+          <div class="petal petal3"></div>
+          <div class="petal petal4"></div>
+          <div class="center"></div>
+        </div>
+      </div>
+    </section>
+
+    </section>
+    <p>
+      This is a section to access my photos from my favorite and most recent travels. I have been to many places including
+      Japan, France, Italy, Portugal, South Korea, and many more. 
+    </p>
+
+    <section class="gallery-section">
+      <a href="photography.html" class="cute-button"> View Photography</a>
+    </section>
+
+    
+    <p>
+      This is a section to access my favorite books I have read recently, with ratings of each one.
+    </p>
+
+    <section class="gallery-section">
+      <a href="books.html" class="cute-button"> View Books</a>
+    </section>
+</body>
+</html>

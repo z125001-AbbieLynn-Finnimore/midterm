@@ -1,0 +1,132 @@
+body {
+    background-color: #e6fbe6;
+    font-family: 'Quicksand', sans-serif;
+    color: #2e4d2e;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 60px 20px;
+    background: #e1f5e1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    flex-wrap: nowrap;
+  }
+  
+  .header h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: 600;
+    flex-shrink: 0;
+    word-break: break-word;
+  }
+  
+  @media (max-width: 600px) {
+    .header h1 {
+      font-size: 1.8em;
+    }
+  }
+
+  
+  .gallery-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+  }
+  
+  .gallery-page img {
+    width: 250px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery-page img:hover {
+    transform: scale(1.05);
+  }
+  
+  .flower-back {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: 100px;
+    display: block;
+    z-index: 10;
+    text-decoration: none;
+  }
+  
+  .petal {
+    width: 40px;
+    height: 60px;
+    background: #8bb38b;
+    border-radius: 50% 50% 0 0;
+    position: absolute;
+    top: 0;
+    left: 30px;
+    transform-origin: bottom center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .petal1 { transform: rotate(0deg); }
+  .petal2 { transform: rotate(72deg); }
+  .petal3 { transform: rotate(144deg); }
+  .petal4 { transform: rotate(216deg); }
+  .petal5 { transform: rotate(288deg); }
+  
+  .center {
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    width: 30px;
+    height: 30px;
+    background: #586c58;
+    border-radius: 50%;
+    z-index: 1;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  }
+
+  .gallery-page {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+    padding: 40px;
+  }
+  
+  .photo-card {
+    background: #eaffea;
+    border: 2px solid #b2e0b2;
+    border-radius: 16px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.06);
+    transition: transform 0.3s ease;
+  }
+  
+  .photo-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .photo-card img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 12px;
+  }
+  
+  .photo-description {
+    font-size: 0.95em;
+    color: #2e4d2e;
+    padding: 8px;
+    background-color: #f4fff4;
+    border: 1px dashed #92c992;
+    border-radius: 8px;
+  }
+  
